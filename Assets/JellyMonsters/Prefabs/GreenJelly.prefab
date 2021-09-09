@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2300000}
   - component: {fileID: 9500000}
   - component: {fileID: -2431710763071244423}
+  - component: {fileID: 2158611029579106432}
   m_Layer: 0
   m_Name: GreenJelly
   m_TagString: Untagged
@@ -113,3 +114,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _deathEffect: {fileID: 19800000, guid: 7afc0330cbd9f6f488a7de84f3c3ff55, type: 3}
+--- !u!135 &2158611029579106432
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.42661208
+  m_Center: {x: -0.056951836, y: 0.0008122772, z: 0.05244024}
